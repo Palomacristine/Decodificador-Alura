@@ -1,0 +1,107 @@
+*{
+    background: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+  }
+  
+  .logoalura {
+      margin-left: 10px;
+      padding-top: 10px;
+      width: 2%;
+  }
+  
+  main {
+      display: flex;
+      margin-right: auto;
+      width: 65%;
+      margin-bottom: 50px;
+      margin-left: 80px;
+     
+  }
+  
+  .text-area {
+      border: none;
+      color: #0A3871;
+      margin-top: 90px;
+      text-transform: lowercase;
+      margin-left: 30px;
+  }
+  ::placeholder { color: #0A3871; } 
+      .text-area:focus {
+          outline: none;
+  }
+  
+  .mensagem {
+      background: white;
+      background-size: 100%;
+      background-image: url(boneco.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      border: none;
+      border-radius: 24px;
+      position: relative;
+  }
+  
+  .mensagem:focus {
+      outline:none 
+  }
+  .botoes{
+      display: flex;
+      margin-top: 18px;
+      }
+      .btn-encripar{
+          background-color: #0a3871;
+          border: 1px solid #0a3871;
+          border-radius: 24px;
+          color: white;
+          cursor: pointer;
+          height:67px;
+          margin-left: 30px;
+          width: 328px;
+  
+      }
+      .btn-desencripar{
+          background-color: #d8dfe8;
+          border: 1px solid #6806a1;
+          border-radius: 24px;
+          color: #6806a1;
+          cursor: pointer;
+          height:67px;
+          margin-left: 30px;
+          width: 328px;
+  
+      }
+      .btn-copiar{
+        background: #FFFFFF;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        width: 250px;
+        left: 852px;
+        margin-top: 700;
+        top: 550px;
+        position: absolute;
+
+      
+    }
+
+      .informação{
+          color:black;
+          font-size:18px;
+  
+      }
+      .Copyright{
+             text-align: center; 
+             color: black;
+             font-size: 20px;
+             margin: 20px 0 0;
+  
+      }
+      .footer a{
+          font-size: 32px;
+          color: inherit;
+      } 
