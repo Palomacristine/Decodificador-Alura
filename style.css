@@ -34,7 +34,7 @@
   }
   
   .mensagem {
-      background: white;
+      background: rgb(42, 179, 110);
       background-size: 100%;
       background-image: url(boneco.png);
       background-position: center;
